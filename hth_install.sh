@@ -56,7 +56,7 @@ ADDNODE40='83.146.113.6\n'
 PORT='35888'
 RPCPORT='9215'
 
-BOOTSTRAP='https://www.dropbox.com/s/raw/41hob0jceuqzifj/hth-bootstrap.zip'
+BOOTSTRAP='https://www.dropbox.com/s/raw/v3zni78wef1pye5/hth-bootstrap.zip'
 BOOTSTRAP_ZIP='hth-bootstrap.zip'
 
 
