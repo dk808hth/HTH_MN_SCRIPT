@@ -56,9 +56,6 @@ ADDNODE40='83.146.113.6\n'
 PORT='35888'
 RPCPORT='9215'
 
-BOOTSTRAP='https://www.dropbox.com/s/raw/v3zni78wef1pye5/hth-bootstrap.zip'
-BOOTSTRAP_ZIP='hth-bootstrap.zip'
-
 
 #end of required details
 #
@@ -123,11 +120,6 @@ cd
 rm -rf $EXTRACT_DIR
 rm -rf $WALLET_TAR_FILE
 #end downloading/cleaning up wallet
-
-wget -U Mozilla/5.0 $BOOTSTRAP
-sudo mkdir $CONFIG_FOLDER
-unzip $BOOTSTRAP_ZIP -d $CONFIG_FOLDER
-rm -rf $BOOTSTRAP_ZIP
 
 echo "Creating Conf File wallet"
 sudo touch $CONFIG_FOLDER/$CONFIG_FILE
