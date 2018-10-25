@@ -3,14 +3,15 @@
 COIN_NAME='HTH' #no spaces
 
 #wallet information
-WALLET_DOWNLOAD='https://github.com/HTHcoin/HTH/releases/download/v1.2/linux.zip'
-WALLET_TAR_FILE='linux.zip'
+WALLET_DOWNLOAD='https://github.com/dk808hth/HTH_MN_SCRIPT/raw/master/hth-linux.zip'
+WALLET_TAR_FILE='hth-linux.zip'
 ZIPTAR='unzip' #can be either unzip or tar -xfzg
 EXTRACT_DIR='' #not always necessary, can be blank if zip/tar file has no subdirectories
 CONFIG_FOLDER='/root/.hth'
 CONFIG_FILE='hth.conf'
 COIN_DAEMON='hthd'
 COIN_CLI='hth-cli'
+COIN_TX='hth-tx'
 COIN_PATH='/usr/bin'
 ADDNODE1='140.82.32.139'
 ADDNODE2='80.211.42.72'
@@ -115,8 +116,8 @@ wget -U Mozilla/5.0 $WALLET_DOWNLOAD
 
 $ZIPTAR $WALLET_TAR_FILE
 cd $EXTRACT_DIR
-sudo chmod +x $COIN_CLI $COIN_DAEMON
-cp $COIN_CLI $COIN_DAEMON $COIN_PATH
+sudo chmod +x $COIN_CLI $COIN_DAEMON $COIN_TX
+cp $COIN_CLI $COIN_DAEMON $COIN_TX $COIN_PATH
 sudo chmod +× /usr/bin/hth*
 cd
 rm -rf $EXTRACT_DIR
