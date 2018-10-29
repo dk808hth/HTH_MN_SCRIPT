@@ -10,3 +10,6 @@ bash hth_install.sh
 Once the script is finished it will give you instructions on what to do on local wallet's masternode conf.
 
 *note: To get the TxID and Output for your collateral go to debug console and enter `masternode outputs` after you send your collateral.
+
+
+Courtesy of AltTank forked by dk808 for HTH
