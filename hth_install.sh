@@ -306,7 +306,6 @@ echo "Starting your HTH NODE with final details"
 $COIN_DAEMON -daemon
 
 echo "============================================================================="
-echo "COURTESY OF ALTTANK FORKED BY DK808 FOR HTH"
 echo "COPY THIS TO LOCAL WALLET CONFIG FILE AND REPLACE TxID and OUTPUT"
 echo "WITH THE DETAILS FROM YOUR COLLATERAL TRANSACTION"
 echo "MN1 $WANIP:$PORT $GENKEY TxID OUTPUT"
